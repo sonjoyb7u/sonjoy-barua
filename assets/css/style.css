@@ -363,7 +363,7 @@ h3 {
   justify-content: space-between;
 }
 .skill-detail2 ul {
-  margin-right: 255px;
+  margin-right: 206px;
 }
 .skill-detail2 span,
 .cgpa span {
@@ -427,6 +427,25 @@ h3 {
   font-family: "Source Sans Pro", sans-serif;
 }
 .skill-detail5 ul > ol {
+  display: list-item;
+  /* margin-right: 500px; */
+  list-style-type: disc;
+  padding-left: 3px;
+}
+
+.skill-detail6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-detail6 ul {
+  margin-right: 180px;
+}
+.skill-detail6 span,
+.cgpa span {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.skill-detail6 ul > ol {
   display: list-item;
   /* margin-right: 500px; */
   list-style-type: disc;
